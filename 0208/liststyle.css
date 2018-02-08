@@ -1,0 +1,29 @@
+#circles {
+list-style-type: circle;
+
+}
+#squares {
+    list-style-type: square;
+}
+
+#upper {
+ list-style-type: upper-alpha;
+
+}
+
+#roman {
+list-style-type: upper-roman;
+
+}
+ul#images1{
+    margin:auto;
+    width:200px;
+    list-style-image: url("aOHzJctgbUwmqvN-128x128-noPad.jpg");
+    list-style-position:inside;
+}
+ul#images2{
+    margin:auto;
+    width:200px;
+    list-style-image:url("avatar_33871146ac6b_128.jpg");
+    list-style-position:inside;
+}

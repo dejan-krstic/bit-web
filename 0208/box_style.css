@@ -1,0 +1,48 @@
+#contains_paragraph {
+    background-color: aquamarine;
+    min-width: 1000px;
+    
+    min-height: 1000px;
+
+   
+}
+
+p{
+    background-color: grey;
+     width: 15%;
+    height: 20%;
+    overflow:scroll;
+} 
+
+/* #para1 {
+background-color: yellow;
+width: 400px;
+height: 500px;
+
+}
+#para2 {
+    background-color:red;
+    width: 600px;
+    height: 300px;
+    
+    } */
+
+    #para1 {
+        background-color: yellow;
+        min-width: 1300px;
+        height: 500px;
+        
+        }
+    #para2 {
+            background-color:red;
+            
+            max-height: 150px;
+            min-height: 100px;
+            max-width: 300px;
+            min-width: 100px;
+            overflow:hidden;
+
+            
+            }
+
+            
