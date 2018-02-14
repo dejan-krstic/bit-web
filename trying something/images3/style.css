@@ -13,7 +13,7 @@ body {font-family: Arial, Helvetica, sans-serif;
     position:relative;
 }
 
-div.header {
+nav.header {
     background-color: brown;
     width: 100%;
     /* height: 40px; */
@@ -51,7 +51,7 @@ img {
     float:right;
     list-style: none;
 }
-.side {
+aside {
     background-color: orange;
     width: 270px;
     margin:0 0 0 auto;
@@ -65,7 +65,7 @@ hr{
     border-top: 1px rgb(99, 99, 99) solid;
 }
 
-div>div>div{
+main>article{
     float:left;
     width:300px;
 }
@@ -78,16 +78,16 @@ div>div>div{
     padding-top: 70px;
     box-sizing: border-box;
 }
-div>div>div:nth-child(4n)>div{
+main>article:nth-child(4n)>div{
     background-color: darkred;
 }
-div>div>div:nth-child(4n+1)>div{
+main>article:nth-child(4n+1)>div{
     background-color: rgb(118, 139, 0);
 }
-div>div>div:nth-child(4n+2)>div{
+main>article:nth-child(4n+2)>div{
     background-color: rgb(65, 0, 139);
 }
-div>div>div:nth-child(4n+3)>div{
+main>article:nth-child(4n+3)>div{
     background-color: rgb(255, 217, 0);
 }
 span {
@@ -99,11 +99,11 @@ span {
 .middle{
     margin:0 20px;
 }
-.container{
+main{
     padding:0 10px;
     overflow:hidden;
 }
-.footer{
+footer{
     background-color: rgb(65,0,139);
     margin:20px auto 10px auto;
     padding:10px;
@@ -134,4 +134,5 @@ span {
 }
 .dropdown:hover .dropdown-content {
     display: block;
+    background-color: aquamarine;
 }
