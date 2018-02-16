@@ -6,7 +6,7 @@ body{
     /* margin: 0 auto; */
     font-size: 1.2rem;
 }
-div
+
 
 h1{font-family: Arial, Helvetica, sans-serif;
     /* font-size: 30px; */
@@ -112,8 +112,14 @@ article{
       display: inline-block;
 
  }
+ article>*{
+     vertical-align: middle;
+ }
+
  p{
-     width:100%;
+     width:50%;
+     display:inline-block;
+     vertical-align: middle;
      
  }
 
@@ -125,6 +131,7 @@ ul{
 @media (min-width:960px){
     body {
         padding: 0 50px 0;
+        
     }
     nav{
         position: absolute;
@@ -167,6 +174,7 @@ ul{
         width: 29%;
         border:none;
         margin:2%;
+        display:block;
     }
      article>img {
            
@@ -186,4 +194,12 @@ ul{
         height:450px;
         width:100%;
     }
+    article:last-of-type {
+    float: right:
+} 
+    /* article:nth-of-type(2){
+        float: none;
+        margin: 0 auto;
+    }  */
+
     }
