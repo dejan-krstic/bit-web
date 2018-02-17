@@ -320,6 +320,9 @@ section:last-of-type>* {
         float: left;
         padding-right: 10px;
     }
+    main>article:last-of-type {
+        clear:left;
+    }
     main>img {
         width:50%;
         float: left;
@@ -328,13 +331,18 @@ section:last-of-type>* {
         font-size: 14px;
     }
     main+section article {
-        width: 45%;
+        width: 46%;
         float:left;
         padding-left:5px;
         padding-right: 5px;
+       
     }
     main+section>article img {
         width:30%;
+    }
+    main+section {
+     overflow:hidden;
+
     }
     hr {
         margin-bottom: 5%;
@@ -346,6 +354,12 @@ section:last-of-type>* {
         padding: 16px;
         font-size: 2vw;
     }
+}
+main+section>article h3 {
+    font-size: 3vw;    
+}
+main+section>article p {
+    font-size: 2vw;
 }
 
 
@@ -362,7 +376,7 @@ section:last-of-type>* {
 
 
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 1200px) {
     main>article:first-of-type {
         width: 30%;
         margin-left:5%;
