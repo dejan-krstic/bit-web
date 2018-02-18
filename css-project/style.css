@@ -172,6 +172,7 @@ main+section>article>div {
 }
 span {
     color:black;
+    font-size: 2.5vw;
 }
 
 footer>article {
@@ -284,14 +285,16 @@ section:last-of-type>* {
 
 @media only screen and (min-width: 768px) {
     header>p {
-        font-size: 5vw;
+        font-size: 4vw;
+        padding-top: 5vw;
     }
     header+section {
         position:absolute;
-        top:20px;
-        left: 20px;
+        top:2vw;
+        left: 2vw;
         margin: 0;
         padding: 0;
+        font-size: 3.5vw;
     }
     header+section>p:first-child {
         border: whitesmoke 5px solid;
@@ -305,15 +308,19 @@ section:last-of-type>* {
         position:absolute;
         top:0;
         right:0;
-        margin: 20px 20px;
+        margin: 2vw;
+        width: 40%;
     }
     nav>ul {
         background-color: transparent;
-        width: 300px;
+        width: 100%;
     }
 
     nav>ul>li {
         display: inline-block;
+    }
+    nav a {
+        font-size: 1.5vw;
     }
     main>article:first-of-type {
         width: 50%;
@@ -327,8 +334,11 @@ section:last-of-type>* {
         width:50%;
         float: left;
     }
-    main q, main ul {
-        font-size: 14px;
+    main>article p {
+        font-size: 2.5vw;
+    }
+    main q, main li {
+        font-size: 1.5vw;
     }
     main+section article {
         width: 46%;
@@ -344,8 +354,10 @@ section:last-of-type>* {
      overflow:hidden;
 
     }
+    main
     hr {
         margin-bottom: 5%;
+        margin-top: -2vw;
     }
     header>div {
         width:18%;
@@ -354,12 +366,96 @@ section:last-of-type>* {
         padding: 16px;
         font-size: 2vw;
     }
-}
-main+section>article h3 {
-    font-size: 3vw;    
-}
-main+section>article p {
-    font-size: 2vw;
+    
+    main+section>article h3 {
+       font-size: 3vw;    
+    }
+    main+section>article p {
+        font-size: 2vw;
+     }
+     h1 {
+         font-size: 4vw;
+     }
+
+
+
+
+footer>article {
+        width:50%;
+        float: left;
+        display: inline-block;
+        height: 20vw;
+    }
+    footer>article>p:first-child{
+        font-size: 2vw;
+        width: 80%;
+        margin-bottom: 0;
+    }
+    #contact>p:nth-child(2){
+        font-size: 1.5vw;
+        padding: 2% 2% 0 4%;
+        width: 45%;
+        
+    }
+    #contact>p:last-child {
+        font-size: 1.3vw;
+        padding: 2% 2% 0 4%;
+        width: 42%;
+    }
+    #address>p:last-child{
+        font-size: 1.5vw;
+        padding: 2% 2% 0 3%;
+        width: 80%;
+        
+    }
+
+    #connect img {
+        height: 2.65vw;
+        float: left;
+        margin: 2vw;
+        clear:none;
+    }
+    #connect>img:first-of-type {
+        margin-left: 10vw;
+    }
+    #house>img {
+        height: 20vw;
+        width: 35vw;
+        margin: -4vw auto;
+    }
+    #form {
+        width: 90%;
+        margin: 0 auto;
+    }
+    form>input {
+        width: 32%;
+        float: left;
+        height: 3vw;
+        font-size: 1.5vw;
+    }
+    form>input:nth-child(2) {
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    iframe {
+        height: 40vw;
+    }
+    textarea {
+        font-size: 1.5vw;
+        height: 17vw;
+        margin: 0;
+    }
+    #submit {
+        margin: 1vw 0 1vw;
+        border-radius: 0.5vw;
+        width: 10vw;
+        padding-bottom: 2.7vw;
+    }
+    #form {
+        overflow: hidden;
+    }
+    section:last-of-type{
+        font-size: 1.5vw;
 }
 
 
@@ -409,11 +505,15 @@ main+section>article p {
     main+section article {
         width: 31.1%;
         margin: 1.1%;
-        padding-left: 25px;
+        padding-left: 2vw;
     }
 
     main+section article p {
         font-size: 1vw;
+    }
+    span {
+  
+        font-size: 1.7vw;
     }
  
     footer>article {
@@ -450,9 +550,17 @@ main+section>article p {
         margin: 0.8vw;
         clear:none;
     }
+    #connect>img:first-of-type {
+        margin-left: 0.8vw;
+    }
     #house>img {
         height: 15vw;
+        width: 15vw;
         margin: -3vw auto;
+    }
+    #form {
+        width: 75%;
+        margin: 0 auto;
     }
     form>input {
         width: 32%;
@@ -481,6 +589,10 @@ main+section>article p {
     #form {
         overflow: hidden;
     }
+    section:last-of-type{
+        font-size: 1.5vw;
+}
+
 }
 
 
