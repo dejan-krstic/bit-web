@@ -377,6 +377,19 @@ main+section>article p {
 
 
 @media only screen and (min-width: 1200px) {
+    * {
+        font-size: 2vw;
+    }
+    h1 {
+        font-size: 3vw;
+    }
+    main>article>p {
+        font-size: 1.8vw;
+
+    }
+    main>article>ul>li {
+        font-size: 1vw;
+    }
     main>article:first-of-type {
         width: 30%;
         margin-left:5%;
@@ -388,6 +401,7 @@ main+section>article p {
         padding-left: 10px;
         float:left;
         width: 30%;
+        clear: none;
     }
     main {
         overflow: hidden;
@@ -397,10 +411,76 @@ main+section>article p {
         margin: 1.1%;
         padding-left: 25px;
     }
+
     main+section article p {
         font-size: 1vw;
     }
-    
+ 
+    footer>article {
+        width:25%;
+        float: left;
+        display: inline-block;
+        height: 15vw;
+    }
+    footer>article>p:first-child{
+        font-size: 1.7vw;
+        width: 80%;
+        margin-bottom: 0;
+    }
+    #contact>p:nth-child(2){
+        font-size: 1.3vw;
+        padding: 2% 2% 0 4%;
+        width: 100%;
+        
+    }
+    #contact>p:last-child {
+        font-size: 1.3vw;
+        padding: 2% 2% 0 4%;
+        width: 100%;
+    }
+    #address>p:last-child{
+        font-size: 1.2vw;
+        padding: 2% 2% 0 8%;
+        width: 100%;
+        
+    }
+    #connect img {
+        height: 2.65vw;
+        float: left;
+        margin: 0.8vw;
+        clear:none;
+    }
+    #house>img {
+        height: 15vw;
+        margin: -3vw auto;
+    }
+    form>input {
+        width: 32%;
+        float: left;
+        height: 3vw;
+        font-size: 1.5vw;
+    }
+    form>input:nth-child(2) {
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    iframe {
+        height: 30vw;
+    }
+    textarea {
+        font-size: 1.5vw;
+        height: 17vw;
+        margin: 0;
+    }
+    #submit {
+        margin: 1vw 0 1vw;
+        border-radius: unset;
+        width: 10vw;
+        padding-bottom: 2.7vw;
+    }
+    #form {
+        overflow: hidden;
+    }
 }
 
 

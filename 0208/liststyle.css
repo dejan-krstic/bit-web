@@ -16,10 +16,12 @@ list-style-type: upper-roman;
 
 }
 ul#images1{
+    border: 15px solid red;
+    border-bottom-color: blue;
     margin:auto;
     width:200px;
-    list-style-image: url("aOHzJctgbUwmqvN-128x128-noPad.jpg");
-    list-style-position:inside;
+    list-style-image: url("aOHzJctgbUwmqvN-128x128-noPad.jpg") ;
+
 }
 ul#images2{
     margin:auto;
