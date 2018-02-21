@@ -1,0 +1,10 @@
+
+@mixin shadow($shade, $shadecolorred, $dontknowpx){
+    -webkit-box-shadow: $shade -47px 68px $dontknowpx rgba($shadecolorred,0,0,0.75);
+    -moz-box-shadow: $shade -47px 68px $dontknowpx rgba($shadecolorred,0,0,0.75);
+    box-shadow: $shade -47px 68px $dontknowpx rgba($shadecolorred,0,0,0.75);
+    font-size: $dontknowpx;
+}
+
+@mixin tshadow($shade, $shadecolorblue) {
+    text-shadow: $shade 4px 2px rgba(150, 150, $shadecolorblue, 1);

@@ -476,6 +476,10 @@ footer>article {
     * {
         font-size: 2vw;
     }
+    header+section>p>b {
+    
+        font-size: 3.5vw;
+    }
     h1 {
         font-size: 3vw;
     }
@@ -484,6 +488,9 @@ footer>article {
 
     }
     main>article>ul>li {
+        font-size: 1vw;
+    }
+    main>article>q {
         font-size: 1vw;
     }
     main>article:first-of-type {
@@ -547,7 +554,7 @@ footer>article {
     #connect img {
         height: 2.65vw;
         float: left;
-        margin: 0.8vw;
+        margin: 0.75vw;
         clear:none;
     }
     #connect>img:first-of-type {
@@ -591,7 +598,10 @@ footer>article {
     }
     section:last-of-type{
         font-size: 1.5vw;
-}
+    }
+section:last-of-type>p, section:last-of-type>a {
+    font-size: 1.5vw;
+    }
 
 }
 

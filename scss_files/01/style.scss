@@ -1,0 +1,12 @@
+$color: red;
+$fontSize: 2vw;
+$function: none;
+$ali: center;
+p {
+    color: $color;
+    display: $function;
+    font-size: $fontSize;
+}
+* {
+    text-align: $ali;
+}
